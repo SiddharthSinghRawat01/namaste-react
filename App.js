@@ -13,6 +13,8 @@ const Title = () => (
 const HeadingComponent = () => (
   <div id="container">
     <Title />
+    <Title></Title>
+    {Title()} //* its a js function so we can callit like ths too /*
     <h1 className="heading"> Namste React Functional Component</h1>
   </div>
 );
